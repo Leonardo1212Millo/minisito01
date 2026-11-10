@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>TechShop - Registrazione</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <h1>TechShop</h1>
+        <p>I migliori PC e componenti al miglior prezzo</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="chi-siamo.html">Chi Siamo</a>
+        <a href="pagina3.html">Catalogo PC</a>
+        <a href="pagina4.html">Offerte</a>
+        <a href="registrazione.html">Registrati</a>
+    </nav>
+    <main>
+        <h2>Crea il tuo Account TechShop</h2>
+        <p>Registrati per accedere alle offerte dedicate e monitorare i tuoi ordini.</p>
+        
+        <form action="conferma.html" method="GET">
+            <label for="nome">Nome e Cognome:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Es. Mario Rossi" required><br><br>
+
+
+            <label for="email">Indirizzo Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="mario.rossi@email.com" required><br><br>
+
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+
+
+            <label for="interesse">Prodotto di maggiore interesse:</label><br>
+            <select id="interesse" name="interesse">
+                <option value="notebook">Notebook / Portatile</option>
+                <option value="gaming">PC Gaming</option>
+                <option value="ufficio">PC Ufficio & Workstation</option>
+            </select><br><br>
+
+
+            <button type="submit">Completa Registrazione</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2026 TechShop - Tutti i diritti riservati</p>
+    </footer>
+</body>
+</html>
